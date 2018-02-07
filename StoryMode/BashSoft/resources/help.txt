@@ -1,0 +1,31 @@
+﻿
+╔════════════════════════════════════════════════════════════════════════════════════════════════════╗
+╠► COMPARE [path 1] [path 2] ─ compare two files. Paths can be relative to the current folder or     ║
+║	given as absolute addresses of the folder(s) where the files are located		     ║
+╠► DOWNLOAD [path] ─ pull a file from a specified location to the current directory		     ║
+╠► EXIT ─ closes the program after a couple of seconds						     ║
+╠► GOTODIR [path] ─ go to another directory by following a given path				     ║
+╠► HELP ─ shows this list of commands and their respective usage				     ║
+╠► LISTDIR [depth] ─ lists the contents of the current directory down to the specified depth	     ║
+╠► LOADDB [path] ─ loads a file with courses, active students and their scores into the database     ║
+╠► MAKEDIR [path] ─ creates new folder(s) with the given name(s) along the specified path	     ║
+╠► OPEN [path] ─ displays the contents of specified file					     ║
+╠► READDB [course] [number of students] [score filter] [report order] ─ take information from the    ║
+║	database and display it in a report following a number of criteria. Rules and examples:	     ║
+║	-[course]- must be in the format Name_Month_Year, where the name of the course is written    ║
+║	 without any separators, the month is represented by its first three letters, while the year ║
+║	 is a four-digit number ranging from 2014 to the present. Alternatively, entering the keyword║
+║	 "any" will show all courses where a (number of) student(s) has(have) participated.	     ║
+║	   Examples: "readdb Unity_Jan_2016 all", "readdb WebFundamentals_Oct_2015 10 average"	     ║
+║	-[number of students]- either a single username, a whole number or the keyword "all". The    ║
+║	 latter displays all students that adhere to the rest of the command parameters.	     ║
+║	   Examples: "readdb any Asen29_1337 excellent", "readdb any 1 ascending"		     ║
+║	-[score filter]- one of three keywords - "excellent", "average" and "poor". Shows students   ║
+║	 with grades that are equal or higher than 5.00, 3.50 and 2.00 respectively. Grades are	     ║
+║	 based on the average value of all scores for a course. When skipped, all scores are shown.  ║
+║	-[report order]- one of two keywords - "ascending" and descending. Applies only to student   ║
+║	 scores since cources always appear in alphabetical order. Descending by default.	     ║
+║    !!! [course] and [number of students] are required parameters. Filtering and sorting are	     ║
+║	    optional but, when used together, filtering should always precede sorting!		     ║
+╠► WIPE ─ clears the screen of any previous commands and query results				     ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════╝
