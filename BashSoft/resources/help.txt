@@ -9,7 +9,7 @@
 ╠► LISTDIR [depth] ─ lists the contents of the current directory down to the specified depth	     ║
 ╠► LOADDB [path] ─ loads a file with courses, active students and their scores into the database     ║
 ╠► MAKEDIR [path] ─ creates new folder(s) with the given name(s) along the specified path	     ║
-╠► OPEN [path] ─ displays the contents of specified file					     ║
+╠► OPEN [path] ─ displays the contents of the specified file					     ║
 ╠► READDB [course] [number of students] [score filter] [report order] ─ take information from the    ║
 ║	database and display it in a report following a number of criteria. Rules and examples:	     ║
 ║	-[course]- must be in the format Name_Month_Year, where the name of the course is written    ║
